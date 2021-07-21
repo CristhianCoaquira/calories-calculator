@@ -178,11 +178,11 @@ $secondary_color = isset($atts['color2']) ? $atts['color2'] : '';
             <div class="wp-calorie-calculator-result-unit"><?= __('calories/day', 'wp-calorie-calculator'); ?></div>
             <p class="wp-calorie-calculator-result-text">Tu metabolismo basal</p>
           </div>
-          <!-- <div class="wp-calorie-calculator-result-item">
-            <div class="wp-calorie-calculator-result-count">0</div>
+          <div class="wp-calorie-calculator-result-item">
+            <div class="wp-fisic-calculator-result-count">0</div>
             <div class="wp-calorie-calculator-result-unit"><?= __('calories/day', 'wp-calorie-calculator'); ?></div>
             <p class="wp-calorie-calculator-result-text">Tu nivel de actividad física</p>
-          </div> -->
+          </div>
         </div>
       <?php endif; ?>
     </div>
