@@ -169,9 +169,9 @@ $secondary_color = isset($atts['color2']) ? $atts['color2'] : '';
         <div class="wp-calorie-calculator-result-title"><?= __('Your results:', 'wp-calorie-calculator'); ?></div>
         <div class="wp-calorie-calculator-results">
           <div class="wp-calorie-calculator-result-item">
-            <div class="wp-calorie-calculator-result-count">0</div>
-            <div class="wp-calorie-calculator-result-unit"><?= __('calories/day', 'wp-calorie-calculator'); ?></div>
-            <p class="wp-calorie-calculator-result-text">Cantidad de calorías recomendadas para lograr tus objetivos.</p>
+            <div class="wp-imc-calculator-result-count">0</div>
+            <div class="wp-calorie-calculator-result-unit">IMC</div>
+            <p class="wp-calorie-calculator-result-text">Es un indicador de masa corporal relación entre peso y estatura</p>
           </div>
           <div class="wp-calorie-calculator-result-item">
             <div class="wp-basal-calculator-result-count">0</div>
@@ -184,9 +184,9 @@ $secondary_color = isset($atts['color2']) ? $atts['color2'] : '';
             <p class="wp-calorie-calculator-result-text">Tu nivel de actividad física</p>
           </div>
           <div class="wp-calorie-calculator-result-item">
-            <div class="wp-imc-calculator-result-count">0</div>
-            <div class="wp-calorie-calculator-result-unit">IMC</div>
-            <p class="wp-calorie-calculator-result-text">Es un indicador de masa corporal relación entre peso y estatura</p>
+            <div class="wp-calorie-calculator-result-count">0</div>
+            <div class="wp-calorie-calculator-result-unit"><?= __('calories/day', 'wp-calorie-calculator'); ?></div>
+            <p class="wp-calorie-calculator-result-text">Cantidad de calorías recomendadas para lograr tus objetivos.</p>
           </div>
         </div>
       <?php endif; ?>

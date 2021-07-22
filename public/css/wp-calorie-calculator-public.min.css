@@ -626,4 +626,13 @@ input[type="email"].wp-calorie-calculator-result-form-email {
   .wp-calorie-calculator-result-form button {
     width: 100%;
   }
+  .wp-calorie-calculator-result-item {
+    margin: 5px;
+  }
+  .wp-calorie-calculator-result-item:first-child {
+    flex: 0 0 100%;
+  }
+  .wp-calorie-calculator-result-item:last-child {
+    flex: 0 0 100%;
+  }
 }
