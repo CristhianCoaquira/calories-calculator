@@ -596,6 +596,7 @@ input[type="email"].wp-calorie-calculator-result-form-email {
   width: 175px;
   margin: 2px;
   padding: 10px 20px;
+  color: whitesmoke;
 }
 .wp-calorie-result-button-quantity {
   position: absolute;
