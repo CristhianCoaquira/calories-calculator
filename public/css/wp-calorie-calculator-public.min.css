@@ -583,6 +583,29 @@ input[type="email"].wp-calorie-calculator-result-form-email {
     transparent;
   animation: spin 1.2s linear infinite;
 }
+.wp-calorie-result-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wp-calorie-result-button {
+  position: relative;
+  width: 175px;
+  margin: 2px;
+  padding: 10px 20px;
+}
+.wp-calorie-result-button-quantity {
+  position: absolute;
+  width: 40px;
+  right: -35px;
+  bottom: -8px;
+  font-size: 0.8rem;
+}
+.wp-calorie-result-button-selected {
+  position: absolute;
+  left: -18px;
+  font-size: 1.5rem;
+}
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -628,9 +651,6 @@ input[type="email"].wp-calorie-calculator-result-form-email {
   }
   .wp-calorie-calculator-result-item {
     margin: 5px;
-  }
-  .wp-calorie-calculator-result-item:first-child {
-    flex: 0 0 100%;
   }
   .wp-calorie-calculator-result-item:last-child {
     flex: 0 0 100%;

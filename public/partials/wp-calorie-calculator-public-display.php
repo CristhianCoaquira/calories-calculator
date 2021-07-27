@@ -173,6 +173,29 @@ $secondary_color = isset($atts['color2']) ? $atts['color2'] : '';
             <div class="wp-calorie-calculator-result-unit">IMC</div>
             <p class="wp-calorie-calculator-result-text">Es un indicador de masa corporal relación entre peso y estatura</p>
           </div>
+          <div class="wp-calorie-calculator-result-item wp-calorie-result-buttons">
+            <button id="result-thin" class="wp-calorie-result-button" style="background-color: #783f85;">
+              <span class="wp-calorie-result-button-selected">&#10158;</span>
+              Por debajo del peso
+              <span class="wp-calorie-result-button-quantity">&#9754;18.5 </span>
+            </button>
+            <button id="result-normal" class="wp-calorie-result-button" style="background-color: #00a551;">
+              <span class="wp-calorie-result-button-selected">&#10158;</span>
+              Peso normal
+              <span class="wp-calorie-result-button-quantity">&#9754;25.0 </span>
+            </button>
+            <button id="result-overweight" class="wp-calorie-result-button" style="background-color: #fcb913;">
+              <span class="wp-calorie-result-button-selected">&#10158;</span>
+              Sobrepeso
+              <span class="wp-calorie-result-button-quantity">&#9754;30.0 </span>
+            </button>
+            <button id="result-obesity" class="wp-calorie-result-button" style="background-color: #d7181f;">
+              <span class="wp-calorie-result-button-selected">&#10158;</span>
+              Obesidad
+            </button>
+          </div>
+        </div>
+        <div class="wp-calorie-calculator-results">
           <div class="wp-calorie-calculator-result-item">
             <div class="wp-basal-calculator-result-count">0</div>
             <div class="wp-calorie-calculator-result-unit"><?= __('calories/day', 'wp-calorie-calculator'); ?></div>
@@ -188,6 +211,7 @@ $secondary_color = isset($atts['color2']) ? $atts['color2'] : '';
             <div class="wp-calorie-calculator-result-unit"><?= __('calories/day', 'wp-calorie-calculator'); ?></div>
             <p class="wp-calorie-calculator-result-text">Cantidad de calorías recomendadas para lograr tus objetivos.</p>
           </div>
+          <p class="wp-calorie-calculator-result-text">* Consulta a tu médico. Esta información es una guía que pretende ser un punto de referencia, las acciones que se tomen con base en esta información son responsabilidad de quien las efectué.</p>
         </div>
       <?php endif; ?>
     </div>
