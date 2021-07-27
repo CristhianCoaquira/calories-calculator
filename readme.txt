@@ -5,7 +5,7 @@ Tags: calorie calculator, plan, health, nutrition, macros, sport, fitness, gym, 
 Requires at least: 4.7
 Tested up to: 5.8
 Requires PHP: 5.6
-Stable tag: 2.0.2
+Stable tag: 14.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -107,7 +107,7 @@ You can always message our online support or ask your question on the WordPress 
 
 == Changelog ==
 
-= 2.0.2 =
+= 14.0.6 =
 
 - Fixed a bug with units of measurement in emails
 
