@@ -196,17 +196,17 @@ $secondary_color = isset($atts['color2']) ? $atts['color2'] : '';
           </div>
         </div>
         <div class="wp-calorie-calculator-results">
-          <div class="wp-calorie-calculator-result-item">
+          <div class="wp-calorie-calculator-result-item-total">
             <div class="wp-basal-calculator-result-count">0</div>
             <div class="wp-calorie-calculator-result-unit"><?= __('calories/day', 'wp-calorie-calculator'); ?></div>
             <p class="wp-calorie-calculator-result-text">Tu metabolismo basal</p>
           </div>
-          <div class="wp-calorie-calculator-result-item">
+          <div class="wp-calorie-calculator-result-item-total">
             <div class="wp-fisic-calculator-result-count">0</div>
             <div class="wp-calorie-calculator-result-unit"><?= __('calories/day', 'wp-calorie-calculator'); ?></div>
             <p class="wp-calorie-calculator-result-text">Tu nivel de actividad física</p>
           </div>
-          <div class="wp-calorie-calculator-result-item">
+          <div class="wp-calorie-calculator-result-item-total">
             <div class="wp-calorie-calculator-result-count">0</div>
             <div class="wp-calorie-calculator-result-unit"><?= __('calories/day', 'wp-calorie-calculator'); ?></div>
             <p class="wp-calorie-calculator-result-text">Cantidad de calorías recomendadas para lograr tus objetivos.</p>

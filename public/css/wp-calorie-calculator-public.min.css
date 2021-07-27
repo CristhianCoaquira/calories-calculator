@@ -464,9 +464,12 @@
 .wp-calorie-calculator-results {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .wp-calorie-calculator-result-item {
+  margin: 10px;
+}
+.wp-calorie-calculator-result-item-total {
   margin: 10px;
   flex: 1;
 }
@@ -649,10 +652,10 @@ input[type="email"].wp-calorie-calculator-result-form-email {
   .wp-calorie-calculator-result-form button {
     width: 100%;
   }
-  .wp-calorie-calculator-result-item {
+  .wp-calorie-calculator-result-item-total {
     margin: 5px;
   }
-  .wp-calorie-calculator-result-item:last-child {
+  .wp-calorie-calculator-result-item-total:last-child {
     flex: 0 0 100%;
   }
 }
